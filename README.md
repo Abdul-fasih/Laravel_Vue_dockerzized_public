@@ -14,20 +14,15 @@ This repository contains a Dockerized setup for a project combining Vue.js (Quas
 The repository is structured as follows:
 
 ├── backend/<br>
-│ ├── app/<br>
-│ ├── ...<br>
-│ └── Dockerfile<br>
+│ ├── Dockerfile<br>
+│ └── ...<br>
 ├── frontend/<br>
-│ ├── public/<br>
-│ ├── ...<br>
-│ └── Dockerfile<br>
+│ ├── Dockerfile<br>
+│ └── ...<br>
 ├── docker/<br>
 │ ├── mariadb/<br>
-│ ├── nginx/<br>
-│ │ └── default.conf<br>
-│ └── ...<br>
-├── docker-compose.yml<br>
-└── README.md<br>
+│ └── nginx/<br>
+└── docker-compose.yml<br>
 
 
 - The `backend/` directory contains the Laravel backend code, including the `app/` directory for Laravel application files, and a `Dockerfile` for building the backend Docker image.
