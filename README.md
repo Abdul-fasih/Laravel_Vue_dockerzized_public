@@ -16,12 +16,15 @@ The repository is structured as follows:
 ├── backend/<br>
 │ ├── Dockerfile<br>
 │ └── ...<br>
+│ <br>
 ├── frontend/<br>
 │ ├── Dockerfile<br>
 │ └── ...<br>
+│ <br>
 ├── docker/<br>
 │ ├── mariadb/<br>
 │ └── nginx/<br>
+│ <br>
 └── docker-compose.yml<br>
 
 
